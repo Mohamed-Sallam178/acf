@@ -57,3 +57,7 @@ body {
 .state-info {
   padding: 20px 36px;
 }
+
+table tr:nth-child(even) {
+  background: #bcbcbc1f;
+}
