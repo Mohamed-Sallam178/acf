@@ -1,11 +1,59 @@
 /* DEFAULT EDITS */
-body{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'cairo',sans-serif ;
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+:root {
+  --main-color: #002e54;
+  --second-color: #eff8ff;
+  --whats-color: #39ae41;
+  --phone-color: #b2202b;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif !important;
 }
 
-
-
+/* FIXED EDITS */
+.shadow-eff {
+  box-shadow: 0 0 10px 1px #00000012;
+  border-radius: 8px;
+}
+.btn-whats {
+  border: none;
+  background: var(--whats-color);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn-phone {
+  border: none;
+  background: var(--phone-color);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
 /* MAIN LAYOUT */
+
+/* START MAIN TITLE  */
+.room-dimensions {
+  padding: 18px;
+  column-gap: 4rem;
+}
+.item-discount {
+  flex: 0 0 48%;
+}
+
+/* START ASIDE*/
+.state-info * {
+  text-align: center;
+}
+.state-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.state-info {
+  padding: 20px 36px;
+}
